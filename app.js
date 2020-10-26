@@ -6,6 +6,9 @@ const server = require('http').createServer(app);
 const io = require('socket.io').listen(server);
 const stock = require('./stock.js');
 
+io.origins(['https://posters.mh-jsramverk.me:443']);
+
+
 var poster1 = {
     name: "Swim for health",
     rate: 1.002,
