@@ -11,7 +11,8 @@ var stock = {
         let rate = input.rate;
         let variance = input.variance;
 
-        return start * rate + variance * stock.randomAroundZero();
+        var result = start * rate + variance * stock.randomAroundZero();
+        return result.toFixed(2);
     }
 };
 
