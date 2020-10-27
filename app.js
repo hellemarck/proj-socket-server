@@ -26,56 +26,56 @@ var poster2 = {
 var poster3 = {
     name: "Peace",
     rate: 1.003,
-    variance: 0.5,
+    variance: 0.05,
     startingPoint: 300
 }
 
 var poster4 = {
     name: "Keep your teeth clean",
     rate: 1.001,
-    variance: 0.5,
+    variance: 0.05,
     startingPoint: 450
 }
 
 var poster5 = {
     name: "Washington DC",
     rate: 1.002,
-    variance: 0.4,
+    variance: 0.04,
     startingPoint: 180
 }
 
 var poster6 = {
     name: "Let them grow",
     rate: 1.002,
-    variance: 0.6,
+    variance: 0.06,
     startingPoint: 290
 }
 
 var poster7 = {
     name: "Scheveningen",
     rate: 1.004,
-    variance: 0.7,
+    variance: 0.07,
     startingPoint: 400
 }
 
 var poster8 = {
     name: "Montreal 1924",
     rate: 1.003,
-    variance: 0.4,
+    variance: 0.04,
     startingPoint: 800
 }
 
 var poster9 = {
     name: "BTLM",
     rate: 1.001,
-    variance: 0.6,
+    variance: 0.06,
     startingPoint: 350
 }
 
 var poster10 = {
     name: "Like Picasso",
     rate: 1.03,
-    variance: 0.5,
+    variance: 0.05,
     startingPoint: 200
 }
 
