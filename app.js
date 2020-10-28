@@ -97,13 +97,10 @@ io.on('connection', function (socket) {
 });
 
 setInterval(function() {
-    console.log(posters[0]["startingPoint"]);
     posters.map((poster) => {
         poster["startingPoint"] = stock.getStockPrice(poster);
-
         return poster;
     })
-    console.log(posters[0]["startingPoint"])
     io.emit("stocks", posters)
 }, 5000)
 

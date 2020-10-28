@@ -1,8 +1,6 @@
 var stock = {
     randomAroundZero: function () {
         var num = Math.random() > 0.5 ? 1 : -1;
-        // console.log(num);
-        //blir -1 eller 1
         return num;
     },
 
@@ -12,7 +10,11 @@ var stock = {
         let variance = input.variance;
 
         var result = start * rate + variance * stock.randomAroundZero();
-        return result.toFixed(2);
+        if (result > 1500) {
+            return result = 200;
+        } else {
+            return result.toFixed(2);
+        }
     }
 };
 
