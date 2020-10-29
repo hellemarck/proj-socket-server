@@ -13,28 +13,28 @@ var poster1 = {
     name: "Swim for health",
     rate: 1.002,
     variance: 0.6,
-    startingPoint: 250
+    startingPoint: 200
 }
 
 var poster2 = {
     name: "Keeping up",
     rate: 1.002,
     variance: 0.4,
-    startingPoint: 700
+    startingPoint: 210
 }
 
 var poster3 = {
     name: "Peace",
     rate: 1.003,
     variance: 0.05,
-    startingPoint: 300
+    startingPoint: 225
 }
 
 var poster4 = {
     name: "Keep your teeth clean",
     rate: 1.001,
     variance: 0.05,
-    startingPoint: 450
+    startingPoint: 250
 }
 
 var poster5 = {
@@ -48,28 +48,28 @@ var poster6 = {
     name: "Let them grow",
     rate: 1.002,
     variance: 0.06,
-    startingPoint: 290
+    startingPoint: 190
 }
 
 var poster7 = {
     name: "Scheveningen",
     rate: 1.004,
     variance: 0.07,
-    startingPoint: 400
+    startingPoint: 220
 }
 
 var poster8 = {
     name: "Montreal 1924",
     rate: 1.003,
     variance: 0.04,
-    startingPoint: 800
+    startingPoint: 230
 }
 
 var poster9 = {
     name: "BTLM",
     rate: 1.001,
     variance: 0.06,
-    startingPoint: 350
+    startingPoint: 210
 }
 
 var poster10 = {
