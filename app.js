@@ -105,6 +105,3 @@ setInterval(function() {
 }, 5000)
 
 server.listen(3004, () => console.log("working, port 3004"));
-
-
-// const cors = require('cors');
